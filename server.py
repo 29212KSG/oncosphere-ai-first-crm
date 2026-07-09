@@ -448,7 +448,7 @@ async def process_nlp(req: ProcessRequest):
     
     def add_trace(node: str, node_type: str, message: str, data: Optional[Any] = None):
         trace_log.append({
-            "timestamp": datetime.istnow().isoformat() + "Z",
+            "timestamp": datetime.utcnow().isoformat() + "Z",
             "node": node,
             "type": node_type,
             "message": message,

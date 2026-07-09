@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5173 --host 0.0.0.0 & python3 server.py",
+    "dev": "vite --port 5173 --host 0.0.0.0",
     "build": "vite build",
     "start": "python3 server.py",
     "clean": "rm -rf dist",

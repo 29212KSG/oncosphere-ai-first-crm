@@ -53,7 +53,7 @@ export default function Header() {
             <span>Architecture Specs</span>
           </button>
 
-          <button
+          {/* <button
             onClick={() => dispatch(setActiveTab("logs"))}
             className={`flex items-center space-x-1.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-all duration-150 ${
               activeTab === "logs"
@@ -63,7 +63,7 @@ export default function Header() {
           >
             <BookOpen className="h-3.5 w-3.5" />
             <span>LangGraph Agent Traces</span>
-          </button>
+          </button> */}
         </nav>
       </header>
 
