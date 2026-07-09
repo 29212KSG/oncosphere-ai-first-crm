@@ -1,0 +1,6 @@
+{
+  "name": "OncoSphere AI-First CRM",
+  "description": "An AI-First Life Sciences CRM HCP module utilizing stateful LangGraph agents, FastAPI, and gemma2-9b-it on Groq for flexible natural language interaction logging and entity extraction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

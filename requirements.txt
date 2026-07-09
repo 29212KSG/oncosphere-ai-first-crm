@@ -1,0 +1,12 @@
+# Web Framework & Server
+fastapi
+uvicorn
+
+# Database Driver
+pymysql
+
+# Environment & Settings Management
+python-dotenv
+
+# Official Google Gemini SDK
+google-genai
